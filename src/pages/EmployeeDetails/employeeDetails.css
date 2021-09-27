@@ -1,0 +1,51 @@
+
+
+.container {
+    width: 60%;
+    height: 100vh;
+    min-height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.container .buttonHome {
+    width: 10%;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 100px;
+    border: 0;
+    background: #b80c09;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer; 
+    transition: all 0.2s;
+    box-sizing: border-box;
+}
+
+.container .buttonHome:hover {
+    opacity: 0.7;
+}
+
+
+.container ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid black;
+    margin-bottom: 50px;
+    width: 100%;
+    list-style-type: none;
+}
+
+.container ul li {
+    padding: 10px;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+

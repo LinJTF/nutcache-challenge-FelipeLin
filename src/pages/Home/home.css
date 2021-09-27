@@ -1,0 +1,83 @@
+.homePage .row-employee {
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+}
+
+.homePage .row-employee article {
+    background: #FFF;
+    border: 1px solid #7a9cc6;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.homePage .row-employee article p {
+    font-size: 16px;
+    color: #999;
+    margin-top: 5px;
+    line-height: 24px;
+}
+
+.homePage .row-employee article a {
+    height: 42px;
+    border-radius: 5px;
+    border: 2px solid #344966;
+    background: none;
+    margin-top: 10px;
+    color: #344966;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+}
+
+.homePage .row-employee article a:hover {
+    background: #344966;
+    color: #fdfff7;
+}
+
+.homePage .row-employee article button {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 0;
+    background: #b80c09;
+    color: #fdfff7;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.homePage .row-employee article button:hover {
+    opacity: 0.7;
+}
+
+.homePage .createHome {
+    width: 100px;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: 0;
+    background: #624CAB;
+    color: #fdfff7;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer; 
+    transition: all 0.2s;
+    box-sizing: border-box;   
+    position: absolute;
+    right: 20%;
+    top: 20px; 
+}
+
+.homePage .createHome:hover {
+    background-color: #758ECD;
+    color: #624CAB;
+}
+
+
+
