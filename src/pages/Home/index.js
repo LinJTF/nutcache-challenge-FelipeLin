@@ -12,7 +12,6 @@ function Home() {
     useEffect(() => {
         (async function getEmployees() {
             const response = await EmployeeService.getAllEmployees();
-            //console.log(response);
             setEmployees(response)
         })();
     }, [])
@@ -21,9 +20,7 @@ function Home() {
         (async function deleteEmployee() {
             await EmployeeService.deleteEmployee(id);
             const response = await EmployeeService.getAllEmployees();
-            //console.log(response);
             setEmployees(response)
-            //setAux('');
         })();      
     }
 
